@@ -1,6 +1,3 @@
-[submodule "osxinj"]
-	path = osxinj
-	url = https://github.com/scen/osxinj.git
 [submodule "hooklib/rd_route"]
 	path = hooklib/rd_route
 	url = https://github.com/rodionovd/rd_route.git

@@ -6,7 +6,7 @@
   - 이 경우, errno는 ENOMEM이 설정되며, 반환 값은 NULL이 됩니다. (ENOMEM은 아직 구현 X)
 
 ## 사용법
-1. 먼저 현재 git을 recursive 클론합니다. `git clone -r https://github.com/T2SU/malloc_bomber.git`
+1. 먼저 현재 git을 recursive 클론합니다. `git clone --recursive https://github.com/T2SU/malloc_bomber.git`
 2. 클론된 디렉토리로 현재 디렉토리를 이동합니다. `cd malloc_bomber`
 3. make를 사용해 빌드합니다. `make`
 4. 실행하고 싶은 프로그램을 빌드된 malloct를 사용해 실행합니다. `./malloct [실행할 프로그램] (실행할 프로그램에 넘길 인자)`
